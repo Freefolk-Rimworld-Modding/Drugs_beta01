@@ -2,7 +2,7 @@
 <Defs>
 
   <ThingDef ParentName="MakeableDrugPillBase">
-    <defName>KEP_Antidepressant</defName>
+    <defName>FF_Antidepressant</defName>
     <label>antidepressant</label>
     <description>A drug that induces a mild euphoria without the risk of side effects.</description>
     <graphicData>
@@ -21,13 +21,13 @@
       <drugCategory>Medical</drugCategory>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>KEP_AntidepressantHigh</hediffDef>
+          <hediffDef>FF_AntidepressantHigh</hediffDef>
           <severity>1.0</severity>
         </li>
       </outcomeDoers>
     </ingestible>
     <recipeMaker>
-      <researchPrerequisite>KEP_AntidepressantProduction</researchPrerequisite>
+      <researchPrerequisite>FF_AntidepressantProduction</researchPrerequisite>
       <recipeUsers>
         <li>DrugLab</li>
       </recipeUsers>
@@ -43,7 +43,7 @@
   </ThingDef>
 
   <HediffDef>
-    <defName>KEP_AntidepressantHigh</defName>
+    <defName>FF_AntidepressantHigh</defName>
     <label>antidepressant</label>
     <description>Increased neurotransmitter activity in the brain lifts the user's mood.</description>
     <hediffClass>Hediff_High</hediffClass>
@@ -64,9 +64,9 @@
   </HediffDef>
 
   <ThoughtDef>
-    <defName>KEP_AntidepressantHigh</defName>
+    <defName>FF_AntidepressantHigh</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
-    <hediff>KEP_AntidepressantHigh</hediff>
+    <hediff>FF_AntidepressantHigh</hediff>
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>

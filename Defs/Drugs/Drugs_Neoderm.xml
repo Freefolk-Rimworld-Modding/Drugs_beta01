@@ -2,7 +2,7 @@
 <Defs>
 
   <ThingDef ParentName="MakeableDrugPillBase">
-    <defName>KEP_Neoderm</defName>
+    <defName>FF_Neoderm</defName>
     <label>neoderm</label>
     <description>A regenerative ointment that heals dermal scars over time. Has no effect on internal organs or eyes.</description>
     <descriptionHyperlinks>
@@ -24,13 +24,13 @@
       <drugCategory>Medical</drugCategory>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>KEP_NeodermHigh</hediffDef>
+          <hediffDef>FF_NeodermHigh</hediffDef>
           <severity>1.0</severity>
         </li>
       </outcomeDoers>
     </ingestible>
     <recipeMaker>
-      <researchPrerequisite>KEP_NeodermProduction</researchPrerequisite>
+      <researchPrerequisite>FF_NeodermProduction</researchPrerequisite>
       <recipeUsers>
         <li>DrugLab</li>
       </recipeUsers>
@@ -47,7 +47,7 @@
   </ThingDef>
 
   <HediffDef>
-    <defName>KEP_NeodermHigh</defName>
+    <defName>FF_NeodermHigh</defName>
     <label>neoderm</label>
     <description>Ointment that heals skin scars over time, through a mildly painful process.</description>
     <hediffClass>Hediff_High</hediffClass>

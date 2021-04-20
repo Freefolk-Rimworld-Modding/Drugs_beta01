@@ -2,7 +2,7 @@
 <Defs>
 
   <ThingDef ParentName="MakeableDrugPillBase">
-    <defName>KEP_Painkiller</defName>
+    <defName>FF_Painkiller</defName>
     <label>painkiller</label>
     <description>Painkillers of various types. Used to relieve pain in both acute and chronic conditions. Overuse may cause addiction and serious side effects.</description>
     <graphicData>
@@ -21,19 +21,19 @@
       <drugCategory>Medical</drugCategory>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>KEP_PainkillerHigh</hediffDef>
+          <hediffDef>FF_PainkillerHigh</hediffDef>
           <severity>0.6</severity>
-          <toleranceChemical>KEP_Painkiller</toleranceChemical>
+          <toleranceChemical>FF_Painkiller</toleranceChemical>
         </li>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>KEP_PainkillerTolerance</hediffDef>
+          <hediffDef>FF_PainkillerTolerance</hediffDef>
           <severity>0.025</severity>
           <divideByBodySize>true</divideByBodySize>
         </li>
       </outcomeDoers>
     </ingestible>
     <recipeMaker>
-      <researchPrerequisite>KEP_PainkillerProduction</researchPrerequisite>
+      <researchPrerequisite>FF_PainkillerProduction</researchPrerequisite>
       <recipeUsers>
         <li>DrugLab</li>
       </recipeUsers>
@@ -44,7 +44,7 @@
     </costList>
     <comps>
       <li Class="CompProperties_Drug">
-        <chemical>KEP_Painkiller</chemical>
+        <chemical>FF_Painkiller</chemical>
         <addictiveness>0.010</addictiveness>
         <minToleranceToAddict>0.20</minToleranceToAddict>
         <existingAddictionSeverityOffset>0.1</existingAddictionSeverityOffset>
@@ -55,7 +55,7 @@
   </ThingDef>
 
   <HediffDef>
-    <defName>KEP_PainkillerHigh</defName>
+    <defName>FF_PainkillerHigh</defName>
     <label>painkiller</label>
     <description>Painkiller in the bloodstream relieve the user's pain.</description>
     <hediffClass>Hediff_High</hediffClass>
@@ -90,15 +90,15 @@
   </HediffDef>
 
   <ChemicalDef>
-    <defName>KEP_Painkiller</defName>
+    <defName>FF_Painkiller</defName>
     <label>painkiller</label>
-    <addictionHediff>KEP_PainkillerAddiction</addictionHediff>
-    <toleranceHediff>KEP_PainkillerTolerance</toleranceHediff>
+    <addictionHediff>FF_PainkillerAddiction</addictionHediff>
+    <toleranceHediff>FF_PainkillerTolerance</toleranceHediff>
     <onGeneratedAddictedToleranceChance>0.2</onGeneratedAddictedToleranceChance>
   </ChemicalDef>
 
   <NeedDef ParentName="DrugAddictionNeedBase">
-    <defName>KEP_Chemical_Painkiller</defName>
+    <defName>FF_Chemical_Painkiller</defName>
     <needClass>Need_Chemical</needClass>
     <label>painkiller</label>
     <description>Because of a painkiller dependence, this person needs to regularly consume the drug to avoid withdrawal symptoms.</description>
@@ -106,7 +106,7 @@
   </NeedDef>
 
   <HediffDef ParentName="DrugToleranceBase">
-    <defName>KEP_PainkillerTolerance</defName>
+    <defName>FF_PainkillerTolerance</defName>
     <label>painkiller tolerance</label>
     <description>A built-up tolerance to painkiller. The more severe this tolerance is, the more painkiller it takes to get the same effect.</description>
     <comps>
@@ -114,7 +114,7 @@
         <severityPerDay>-0.02</severityPerDay>
       </li>
       <li Class="HediffCompProperties_DrugEffectFactor">
-        <chemical>KEP_Painkiller</chemical>
+        <chemical>FF_Painkiller</chemical>
       </li>
     </comps>
     <hediffGivers>
@@ -149,11 +149,11 @@
   </HediffDef>
 
   <HediffDef ParentName="AddictionBase">
-    <defName>KEP_PainkillerAddiction</defName>
+    <defName>FF_PainkillerAddiction</defName>
     <label>spainkiller dependence</label>
-    <description>placeholder</description>
+    <description>An addiction to painkiller.</description>
     <hediffClass>Hediff_Addiction</hediffClass>
-    <causesNeed>KEP_Chemical_Painkiller</causesNeed>
+    <causesNeed>FF_Chemical_Painkiller</causesNeed>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.05</severityPerDay>

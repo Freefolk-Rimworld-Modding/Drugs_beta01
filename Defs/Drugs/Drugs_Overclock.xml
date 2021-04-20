@@ -2,7 +2,7 @@
 <Defs>
 
   <ThingDef ParentName="MakeableDrugPillBase">
-    <defName>KEP_Overclock</defName>
+    <defName>FF_Overclock</defName>
     <label>overclock</label>
     <description>A drug that overclocks the user's metabolism, hence the name. Meanwhile, the user is depleted faster.</description>
     <descriptionHyperlinks>
@@ -24,13 +24,13 @@
       <drugCategory>Medical</drugCategory>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>KEP_OverclockHigh</hediffDef>
+          <hediffDef>FF_OverclockHigh</hediffDef>
           <severity>1.0</severity>
         </li>
       </outcomeDoers>
     </ingestible>
     <recipeMaker>
-      <researchPrerequisite>KEP_OverclockProduction</researchPrerequisite>
+      <researchPrerequisite>FF_OverclockProduction</researchPrerequisite>
       <recipeUsers>
         <li>DrugLab</li>
       </recipeUsers>
@@ -47,7 +47,7 @@
   </ThingDef>
 
   <HediffDef>
-    <defName>KEP_OverclockHigh</defName>
+    <defName>FF_OverclockHigh</defName>
     <label>overclock</label>
     <description>Mechanites from the drug overclock is overdriving the user's metabolism.</description>
     <hediffClass>Hediff_High</hediffClass>

@@ -2,14 +2,14 @@
 <Defs>
 
   <ResearchTabDef>
-    <defName>KEP_Drugs</defName>
-    <label>KEP Drugs</label>
+    <defName>FF_Drugs</defName>
+    <label>FF Drugs</label>
   </ResearchTabDef>
 
 <!-- antidepressant production -->
 
   <ResearchProjectDef>
-    <defName>KEP_AntidepressantProduction</defName>
+    <defName>FF_AntidepressantProduction</defName>
     <label>antidepressant production</label>
     <techLevel>Industrial</techLevel>
     <description>Discover how to make antidepressants to counteract depression.</description>
@@ -19,11 +19,11 @@
     </prerequisites>
     <researchViewX>0</researchViewX>
     <researchViewY>0</researchViewY>
-    <tab>KEP_Drugs</tab>
+    <tab>FF_Drugs</tab>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>KEP_PainkillerProduction</defName>
+    <defName>FF_PainkillerProduction</defName>
     <label>painkiller production</label>
     <techLevel>Industrial</techLevel>
     <description>Learn how to make painkiller, useful for pawns who have painful scars.</description>
@@ -33,11 +33,11 @@
     </prerequisites>
     <researchViewX>1</researchViewX>
     <researchViewY>0</researchViewY>
-    <tab>KEP_Drugs</tab>
+    <tab>FF_Drugs</tab>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>KEP_SchyteProduction</defName>
+    <defName>FF_SchyteProduction</defName>
     <label>schyte production</label>
     <techLevel>Industrial</techLevel>
     <description>A powerful drug, that when consumed makes the user's immune system get improved drastically, however it has the sideffect of putting them in to a coma.</description>
@@ -47,11 +47,11 @@
     </prerequisites>
     <researchViewX>2</researchViewX>
     <researchViewY>0</researchViewY>
-    <tab>KEP_Drugs</tab>
+    <tab>FF_Drugs</tab>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>KEP_OverclockProduction</defName>
+    <defName>FF_OverclockProduction</defName>
     <label>overclock production</label>
     <techLevel>Spacer</techLevel>
     <description>Learn how to make overclock, a drug that speeds up metabolisms allowing for faster mouvment and production at the cost of heavy sweating and the time needed for the body recover to afterwards.</description>
@@ -61,11 +61,11 @@
     </prerequisites>
     <researchViewX>3</researchViewX>
     <researchViewY>0</researchViewY>
-    <tab>KEP_Drugs</tab>
+    <tab>FF_Drugs</tab>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>KEP_EctostasisProduction</defName>
+    <defName>FF_EctostasisProduction</defName>
     <label>ectostasis production</label>
     <techLevel>Spacer</techLevel>
     <description>Learn how to make ectostasis, a drug that helps people with heart and lung problems by negating them.</description>
@@ -75,11 +75,11 @@
     </prerequisites>
     <researchViewX>4</researchViewX>
     <researchViewY>0</researchViewY>
-    <tab>KEP_Drugs</tab>
+    <tab>FF_Drugs</tab>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>KEP_SorrowProduction</defName>
+    <defName>FF_SorrowProduction</defName>
     <label>ectostasis production</label>
     <techLevel>Spacer</techLevel>
     <description>Release the inner anger you have. </description>
@@ -89,11 +89,11 @@
     </prerequisites>
     <researchViewX>5</researchViewX>
     <researchViewY>0</researchViewY>
-    <tab>KEP_Drugs</tab>
+    <tab>FF_Drugs</tab>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>KEP_FibrodustProduction</defName>
+    <defName>FF_FibrodustProduction</defName>
     <label>fibrodust production</label>
     <techLevel>Industrial</techLevel>
     <description>placeholder</description>
@@ -103,11 +103,11 @@
     </prerequisites>
     <researchViewX>6</researchViewX>
     <researchViewY>0</researchViewY>
-    <tab>KEP_Drugs</tab>
+    <tab>FF_Drugs</tab>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>KEP_NeodermProduction</defName>
+    <defName>FF_NeodermProduction</defName>
     <label>neoderm production</label>
     <techLevel>Industrial</techLevel>
     <description>placeholder</description>
@@ -117,7 +117,7 @@
     </prerequisites>
     <researchViewX>7</researchViewX>
     <researchViewY>0</researchViewY>
-    <tab>KEP_Drugs</tab>
+    <tab>FF_Drugs</tab>
   </ResearchProjectDef>
 
 </Defs>
