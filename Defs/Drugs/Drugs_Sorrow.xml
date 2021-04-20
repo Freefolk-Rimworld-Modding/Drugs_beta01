@@ -2,7 +2,7 @@
 <Defs>
 
   <ThingDef ParentName="MakeableDrugPillBase">
-    <defName>KEP_Sorrow</defName>
+    <defName>FF_Sorrow</defName>
     <label>sorrow</label>
     <description>A drug that puts the user into a sad mental state. Users would like to spend time alone for a while.\n\nRecommended for those who suffered great losses to prevent more serious mental breaks.</description>
     <descriptionHyperlinks>
@@ -24,13 +24,13 @@
       <drugCategory>Medical</drugCategory>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>KEP_SorrowHigh</hediffDef>
+          <hediffDef>FF_SorrowHigh</hediffDef>
           <severity>1</severity>
         </li>
       </outcomeDoers>
     </ingestible>
     <recipeMaker>
-      <researchPrerequisite>KEP_SorrowProduction</researchPrerequisite>
+      <researchPrerequisite>FF_SorrowProduction</researchPrerequisite>
       <recipeUsers>
         <li>DrugLab</li>
       </recipeUsers>
@@ -47,7 +47,7 @@
   </ThingDef>
 
   <HediffDef>
-    <defName>KEP_SorrowHigh</defName>
+    <defName>FF_SorrowHigh</defName>
     <label>high on sorrow</label>
     <description>The user probably would like to spend some time alone.</description>
     <hediffClass>Hediff_High</hediffClass>

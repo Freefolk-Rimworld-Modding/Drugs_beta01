@@ -2,7 +2,7 @@
 <Defs>
 
   <ThingDef ParentName="MakeableDrugPillBase">
-    <defName>KEP_Fibrodust</defName>
+    <defName>FF_Fibrodust</defName>
     <label>fibrodust</label>
     <description>Military drug that stops bleeding on spot. Its effect is only long enough to carry the user to safety. Potentially cause serious circulatory problems.</description>
     <descriptionHyperlinks>
@@ -24,13 +24,13 @@
       <drugCategory>Medical</drugCategory>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>KEP_FibrodustHigh</hediffDef>
+          <hediffDef>FF_FibrodustHigh</hediffDef>
           <severity>1</severity>
         </li>
       </outcomeDoers>
     </ingestible>
     <recipeMaker>
-      <researchPrerequisite>KEP_FibrodustProduction</researchPrerequisite>
+      <researchPrerequisite>FF_FibrodustProduction</researchPrerequisite>
       <recipeUsers>
         <li>DrugLab</li>
       </recipeUsers>
@@ -47,7 +47,7 @@
   </ThingDef>
 
   <HediffDef>
-    <defName>KEP_FibrodustHigh</defName>
+    <defName>FF_FibrodustHigh</defName>
     <label>fibrodust</label>
     <description>Bleeding is temporarily stopped due to fibrodust usage.</description>
     <hediffClass>Hediff_High</hediffClass>

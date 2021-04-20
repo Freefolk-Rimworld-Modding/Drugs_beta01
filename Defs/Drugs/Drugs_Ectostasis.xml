@@ -2,7 +2,7 @@
 <Defs>
 
   <ThingDef ParentName="MakeableDrugPillBase">
-    <defName>KEP_Ectostasis</defName>
+    <defName>FF_Ectostasis</defName>
     <label>ectostasis</label>
     <description>Homeostatic drug composed of medical mechanites programmed to maintain bodily functions at physiologic level, allowing chronic conditions to be supressed as long as the drug is taken.</description>
     <graphicData>
@@ -21,13 +21,13 @@
       <drugCategory>Medical</drugCategory>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>KEP_EctostasisHigh</hediffDef>
+          <hediffDef>FF_EctostasisHigh</hediffDef>
           <severity>1.0</severity>
         </li>
       </outcomeDoers>
     </ingestible>
     <recipeMaker>
-      <researchPrerequisite>KEP_EctostasisProduction</researchPrerequisite>
+      <researchPrerequisite>FF_EctostasisProduction</researchPrerequisite>
       <recipeUsers>
         <li>DrugLab</li>
       </recipeUsers>
@@ -44,7 +44,7 @@
   </ThingDef>
 
   <HediffDef>
-    <defName>KEP_EctostasisHigh</defName>
+    <defName>FF_EctostasisHigh</defName>
     <label>ectostasis</label>
     <description>Mechanites from the drug ectostasis are setting the metabolism to basal physiologic level.</description>
     <hediffClass>Hediff_High</hediffClass>
