@@ -4,7 +4,7 @@
   <ThingDef ParentName="MakeableDrugPillBase">
     <defName>FF_Ectostasis</defName>
     <label>ectostasis</label>
-    <description>Homeostatic drug composed of medical mechanites programmed to maintain bodily functions at physiologic level, allowing chronic conditions to be supressed as long as the drug is taken.</description>
+    <description>Homeostatic drug composed of medical mechanites programmed to maintain bodily functions at physiologic level, so chronic conditions to be supressed as long as the drug is taken.</description>
     <graphicData>
       <texPath>Things/Item/Drug/Ectostasis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
