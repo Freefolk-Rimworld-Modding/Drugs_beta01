@@ -2,14 +2,14 @@
 <Defs>
 
   <ThingDef ParentName="MakeableDrugPillBase">
-    <defName>FF_Schyte</defName>
-    <label>schyte</label>
-    <description>A medical last-resort drug that massively boosts immunity. Developed against a pre-spacer era pandemic, the drug utilizes a chemotherapeutic mechanism to massively stimulate the immune system. Resulting activity in the body is intolerable, which causes the user to go into a two day coma.</description>
+    <defName>FF_Scythe</defName>
+    <label>scythe</label>
+    <description>A medical last-resort drug that massively boosts immunity. Developed against a pre-spacer era pandemic, the drug utilizes a chemotherapeutic mechanism to overstimulate the immune system. Resulting activity in the body is intolerable, causing the user to go into a two day coma.</description>
     <descriptionHyperlinks>
 
     </descriptionHyperlinks>
     <graphicData>
-      <texPath>Things/Item/Drug/Schyte</texPath>
+      <texPath>Things/Item/Drug/Scythe</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <rotatable>false</rotatable>
@@ -24,13 +24,13 @@
       <drugCategory>Medical</drugCategory>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>FF_SchyteHigh</hediffDef>
+          <hediffDef>FF_ScytheHigh</hediffDef>
           <severity>1.0</severity>
         </li>
       </outcomeDoers>
     </ingestible>
     <recipeMaker>
-      <researchPrerequisite>FF_SchyteProduction</researchPrerequisite>
+      <researchPrerequisite>FF_ScytheProduction</researchPrerequisite>
       <recipeUsers>
         <li>DrugLab</li>
       </recipeUsers>
@@ -47,8 +47,8 @@
   </ThingDef>
 
   <HediffDef>
-    <defName>FF_SchyteHigh</defName>
-    <label>schyte coma</label>
+    <defName>FF_ScytheHigh</defName>
+    <label>scythe coma</label>
     <description>The user could not cope with the immense immune response in the body and fell into a harmless coma.</description>
     <hediffClass>Hediff_High</hediffClass>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>

@@ -37,10 +37,10 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>FF_SchyteProduction</defName>
-    <label>schyte production</label>
+    <defName>FF_ScytheProduction</defName>
+    <label>scythe production</label>
     <techLevel>Industrial</techLevel>
-    <description>Produce schyte, an immunostimulant drug which drastically boosts the user's immune system at the cost of inducing a temporary coma.</description>
+    <description>Produce scythe, an immunostimulant drug which drastically boosts the user's immune system at the cost of inducing a temporary coma.</description>
     <baseCost>2000</baseCost>
     <prerequisites>
       <li>DrugProduction</li>
