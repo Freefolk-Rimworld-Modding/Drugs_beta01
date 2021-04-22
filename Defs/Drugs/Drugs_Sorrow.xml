@@ -14,8 +14,8 @@
     </graphicData>
     <rotatable>false</rotatable>
     <statBases>
-      <WorkToMake>900</WorkToMake>
-      <MarketValue>12</MarketValue>
+      <WorkToMake>5600</WorkToMake>
+      <MarketValue>192</MarketValue>
       <Mass>0.05</Mass>
       <DeteriorationRate>6</DeteriorationRate>
       <Flammability>1.0</Flammability>

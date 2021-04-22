@@ -54,8 +54,8 @@
     <defName>FF_OverclockProduction</defName>
     <label>overclock production</label>
     <techLevel>Spacer</techLevel>
-    <description>Produce overclock, a mechanite drug cocktail which boosts the metabolism into overdrive, augmenting movement and productivity while wearing down the user's energy reserves.</description>
-    <baseCost>2500</baseCost>
+    <description>Produce overclock, a self-injected drug cocktail which boosts the metabolism into overdrive, augmenting movement and productivity while wearing down the user's energy reserves.</description>
+    <baseCost>2000</baseCost>
     <prerequisites>
       <li>DrugProduction</li>
     </prerequisites>
@@ -68,13 +68,13 @@
     <defName>FF_EctostasisProduction</defName>
     <label>ectostasis production</label>
     <techLevel>Ultra</techLevel>
-    <description>Produce ectostasis, a homeostatic drug which uses mechanites to provide relief from chronic heart and lung conditions.</description>
-    <baseCost>1500</baseCost>
+    <description>Produce ectostasis, a homeostatic drug which uses mechanites to provide relief from internal conditions.</description>
+    <baseCost>2500</baseCost>
     <prerequisites>
       <li>DrugProduction</li>
     </prerequisites>
-    <researchViewX>4</researchViewX>
-    <researchViewY>0</researchViewY>
+    <researchViewX>0</researchViewX>
+    <researchViewY>1</researchViewY>
     <tab>FF_Drugs</tab>
   </ResearchProjectDef>
 
@@ -83,12 +83,12 @@
     <label>sorrow production</label>
     <techLevel>Spacer</techLevel>
     <description>Produce sorrow, a depressant drug which is used to induce a state of cathartic sadness.</description>
-    <baseCost>1000</baseCost>
+    <baseCost>1500</baseCost>
     <prerequisites>
       <li>DrugProduction</li>
     </prerequisites>
-    <researchViewX>5</researchViewX>
-    <researchViewY>0</researchViewY>
+    <researchViewX>1</researchViewX>
+    <researchViewY>1</researchViewY>
     <tab>FF_Drugs</tab>
   </ResearchProjectDef>
 
@@ -97,26 +97,26 @@
     <label>fibrodust production</label>
     <techLevel>Industrial</techLevel>
     <description>Produce fibrodust, a coagulant drug which staunches bleeding temporarily, but may cause cardiovascular issues.</description>
-    <baseCost>1000</baseCost>
+    <baseCost>1500</baseCost>
     <prerequisites>
       <li>DrugProduction</li>
     </prerequisites>
-    <researchViewX>6</researchViewX>
-    <researchViewY>0</researchViewY>
+    <researchViewX>2</researchViewX>
+    <researchViewY>1</researchViewY>
     <tab>FF_Drugs</tab>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
     <defName>FF_NeodermProduction</defName>
     <label>neoderm production</label>
-    <techLevel>Industrial</techLevel>
+    <techLevel>Neolithic</techLevel>
     <description>Produce neoderm, a regenerative ointment which heals dermal scars over time.</description>
-    <baseCost>1000</baseCost>
+    <baseCost>2500</baseCost>
     <prerequisites>
       <li>DrugProduction</li>
     </prerequisites>
-    <researchViewX>7</researchViewX>
-    <researchViewY>0</researchViewY>
+    <researchViewX>3</researchViewX>
+    <researchViewY>1</researchViewY>
     <tab>FF_Drugs</tab>
   </ResearchProjectDef>
 

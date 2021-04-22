@@ -14,8 +14,8 @@
     </graphicData>
     <rotatable>false</rotatable>
     <statBases>
-      <WorkToMake>4000</WorkToMake>
-      <MarketValue>76</MarketValue>
+      <WorkToMake>3300</WorkToMake>
+      <MarketValue>46</MarketValue>
       <Mass>0.05</Mass>
       <DeteriorationRate>6</DeteriorationRate>
       <Flammability>1.0</Flammability>
@@ -36,8 +36,8 @@
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <Neutroamine>3</Neutroamine>
-      <KEP_PoisonIvyLeaves>20</KEP_PoisonIvyLeaves>
+      <Neutroamine>2</Neutroamine>
+      <FF_RawPoisonIvy>10</FF_RawPoisonIvy>
     </costList>
     <comps>
       <li Class="CompProperties_Drug">
@@ -69,6 +69,7 @@
           <li>Lung</li>
           <li>Kidney</li>
           <li>Stomach</li>
+		  <li>Spine</li>
         </exclusionList>
         <minTimeToHeal>8</minTimeToHeal>
         <maxTimeToHeal>15</maxTimeToHeal>
