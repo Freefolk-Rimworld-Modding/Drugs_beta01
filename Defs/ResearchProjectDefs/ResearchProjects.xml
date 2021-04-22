@@ -80,7 +80,7 @@
 
   <ResearchProjectDef>
     <defName>FF_SorrowProduction</defName>
-    <label>ectostasis production</label>
+    <label>sorrow production</label>
     <techLevel>Spacer</techLevel>
     <description>Release the inner anger you have. </description>
     <baseCost>1000</baseCost>
