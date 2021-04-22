@@ -35,7 +35,7 @@
   <ThingDef ParentName="RoughPlantBase">
     <defName>FF_RawPoisonIvy</defName>
     <label>poison ivy leaves</label>
-    <description>Raw cut leaves of a poison ivy. Leaf extract can be used to produce strong drugs.</description>
+    <description>Raw cut leaves of a poison ivy. Chemicals extracted from poison ivy cuttings can be used to produce strong drugs.</description>
     <graphicData>
       <texPath>Things/Item/Raw/FF_RawPoisonIvy</texPath>
     </graphicData>
