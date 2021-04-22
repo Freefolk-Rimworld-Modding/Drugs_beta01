@@ -4,7 +4,7 @@
   <ThingDef ParentName="MakeableDrugPillBase">
     <defName>FF_Schyte</defName>
     <label>schyte</label>
-    <description>A medical last-resort drug that massively boosts immunity. Developed against a pre-spacer era pandemic, the drug utilizes a chemotherapeutic mechanism to stimulate the immune system immensely. Resulting activity in the body is intolerable, which causes the user to go into a two day coma.</description>
+    <description>A medical last-resort drug that massively boosts immunity. Developed against a pre-spacer era pandemic, the drug utilizes a chemotherapeutic mechanism to massively stimulate the immune system. Resulting activity in the body is intolerable, which causes the user to go into a two day coma.</description>
     <descriptionHyperlinks>
 
     </descriptionHyperlinks>

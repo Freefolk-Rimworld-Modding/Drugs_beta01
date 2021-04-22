@@ -49,7 +49,7 @@
   <HediffDef>
     <defName>FF_SorrowHigh</defName>
     <label>high on sorrow</label>
-    <description>The user probably would like to spend some time alone.</description>
+    <description>The user would probably like to spend some time alone.</description>
     <hediffClass>Hediff_High</hediffClass>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>

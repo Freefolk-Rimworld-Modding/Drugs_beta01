@@ -150,7 +150,7 @@
 
   <HediffDef ParentName="AddictionBase">
     <defName>FF_PainkillerAddiction</defName>
-    <label>spainkiller dependence</label>
+    <label>painkiller dependence</label>
     <description>An addiction to painkiller.</description>
     <hediffClass>Hediff_Addiction</hediffClass>
     <causesNeed>FF_Chemical_Painkiller</causesNeed>

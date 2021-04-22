@@ -12,7 +12,7 @@
     <defName>FF_AntidepressantProduction</defName>
     <label>antidepressant production</label>
     <techLevel>Industrial</techLevel>
-    <description>Discover how to make antidepressants to counteract depression.</description>
+    <description>Produce antidepressant, a mildly euphoric drug which is used to counteract depression.</description>
     <baseCost>700</baseCost>
     <prerequisites>
       <li>DrugProduction</li>
@@ -26,7 +26,7 @@
     <defName>FF_PainkillerProduction</defName>
     <label>painkiller production</label>
     <techLevel>Industrial</techLevel>
-    <description>Learn how to make painkiller, useful for pawns who have painful scars.</description>
+    <description>Produce painkiller, an analgesic drug which provides a relief from pain. Useful for pawns who have painful scars.</description>
     <baseCost>500</baseCost>
     <prerequisites>
       <li>DrugProduction</li>
@@ -40,7 +40,7 @@
     <defName>FF_SchyteProduction</defName>
     <label>schyte production</label>
     <techLevel>Industrial</techLevel>
-    <description>A powerful drug, that when consumed makes the user's immune system get improved drastically, however it has the sideffect of putting them in to a coma.</description>
+    <description>Produce schyte, an immunostimulant drug which drastically boosts the user's immune system at the cost of inducing a temporary coma.</description>
     <baseCost>2000</baseCost>
     <prerequisites>
       <li>DrugProduction</li>
@@ -54,7 +54,7 @@
     <defName>FF_OverclockProduction</defName>
     <label>overclock production</label>
     <techLevel>Spacer</techLevel>
-    <description>Learn how to make overclock, a drug that speeds up metabolisms allowing for faster mouvment and production at the cost of heavy sweating and the time needed for the body recover to afterwards.</description>
+    <description>Produce overclock, a mechanite drug cocktail which boosts the metabolism into overdrive, augmenting movement and productivity while wearing down the user's energy reserves.</description>
     <baseCost>2500</baseCost>
     <prerequisites>
       <li>DrugProduction</li>
@@ -67,8 +67,8 @@
   <ResearchProjectDef>
     <defName>FF_EctostasisProduction</defName>
     <label>ectostasis production</label>
-    <techLevel>Spacer</techLevel>
-    <description>Learn how to make ectostasis, a drug that helps people with heart and lung problems by negating them.</description>
+    <techLevel>Ultra</techLevel>
+    <description>Produce ectostasis, a homeostatic drug which uses mechanites to provide relief from chronic heart and lung conditions.</description>
     <baseCost>1500</baseCost>
     <prerequisites>
       <li>DrugProduction</li>
@@ -82,7 +82,7 @@
     <defName>FF_SorrowProduction</defName>
     <label>sorrow production</label>
     <techLevel>Spacer</techLevel>
-    <description>Release the inner anger you have. </description>
+    <description>Produce sorrow, a depressant drug which is used to induce a state of cathartic sadness.</description>
     <baseCost>1000</baseCost>
     <prerequisites>
       <li>DrugProduction</li>
@@ -96,7 +96,7 @@
     <defName>FF_FibrodustProduction</defName>
     <label>fibrodust production</label>
     <techLevel>Industrial</techLevel>
-    <description>placeholder</description>
+    <description>Produce fibrodust, a coagulant drug which staunches bleeding temporarily, but may cause cardiovascular issues.</description>
     <baseCost>1000</baseCost>
     <prerequisites>
       <li>DrugProduction</li>
@@ -110,7 +110,7 @@
     <defName>FF_NeodermProduction</defName>
     <label>neoderm production</label>
     <techLevel>Industrial</techLevel>
-    <description>placeholder</description>
+    <description>Produce neoderm, a regenerative ointment which heals dermal scars over time.</description>
     <baseCost>1000</baseCost>
     <prerequisites>
       <li>DrugProduction</li>
