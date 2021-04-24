@@ -4,7 +4,7 @@
   <ThingDef ParentName="MakeableDrugPillBase">
     <defName>FF_Fibrodust</defName>
     <label>fibrodust</label>
-    <description>Military coagulant that stops bleeding on the spot. Its effect only lasts long enough to carry the user to safety. Usage has the potential to induce serious vascular complications.</description>
+    <description>Military coagulant that stops bleeding on the spot. Its effect only lasts long enough to carry the user to safety. Usage may induce serious cardiovascular issues.</description>
     <descriptionHyperlinks>
 
     </descriptionHyperlinks>

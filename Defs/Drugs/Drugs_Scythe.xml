@@ -4,7 +4,7 @@
   <ThingDef ParentName="MakeableDrugPillBase">
     <defName>FF_Scythe</defName>
     <label>scythe</label>
-    <description>A medical last-resort drug that massively boosts immunity. Developed against a pre-spacer era pandemic, the drug utilizes a chemotherapeutic mechanism to overstimulate the immune system. Resulting activity in the body is intolerable, causing the user to go into a two day coma.</description>
+    <description>A medical last-resort drug that massively boosts immunity. Developed against a pre-spacer era pandemic, the drug utilizes a chemotherapeutic mechanism to overstimulate the immune system. Resulting activity levels in the body are intolerable, causing the user to go into a two day coma.</description>
     <descriptionHyperlinks>
 
     </descriptionHyperlinks>
@@ -49,7 +49,7 @@
   <HediffDef>
     <defName>FF_ScytheHigh</defName>
     <label>scythe coma</label>
-    <description>The user could not cope with the immense immune response in the body and fell into a harmless coma.</description>
+    <description>The user has fallen into a harmless coma due to being unable to cope with their body's immense immune response.</description>
     <hediffClass>Hediff_High</hediffClass>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
