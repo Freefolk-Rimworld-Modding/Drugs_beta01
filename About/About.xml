@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ModMetaData>
-    <name>Remedies: Pharmaceuticals</name>
+    <name>Remedies</name>
     <author>Freefolk</author>
     <supportedVersions>
         <li>1.2</li>
     </supportedVersions>
-    <packageId>freefolk.Remedies.Pharmaceuticals</packageId>
+    <packageId>freefolk.Remedies</packageId>
     <description>
 This mod adds several drugs mainly focused on industrial tech and higher. Includes various utilities for your colonists' needs; such as antidepressants, dermal scar regeneration, cathartic reliefs and much more!
     </description>
