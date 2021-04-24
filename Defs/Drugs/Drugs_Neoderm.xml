@@ -60,7 +60,7 @@
         <severityPerDay>-0.9</severityPerDay>
         <showHoursToRecover>false</showHoursToRecover>
       </li>
-      <li Class="KEP_Drugs.KEPHediffCompProperties_SelectiveRegeneration">
+      <li Class="FF_Drugs.KEPHediffCompProperties_SelectiveRegeneration">
         <exclusionList>
           <li>Brain</li>
           <li>Eye</li>

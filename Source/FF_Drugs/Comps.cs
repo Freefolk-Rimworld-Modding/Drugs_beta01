@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Verse;
 
-namespace KEP_Drugs
+namespace FF_Drugs
 {
 	public class KEPHediffCompProperties_SelectiveRegeneration : HediffCompProperties
 	{
