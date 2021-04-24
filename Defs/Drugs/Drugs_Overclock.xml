@@ -4,7 +4,7 @@
   <ThingDef ParentName="MakeableDrugPillBase">
     <defName>FF_Overclock</defName>
     <label>overclock</label>
-    <description>A mechanite cocktail programmed to overclock metabolism, increasing capabilities. The mechanites place a heavy strain on the body, rapidly wearing it out while active.</description>
+    <description>A self-injected drug cocktail that overclocks the user's metabolism, increasing movement and productivity. The drug places a heavy strain on the body, rapidly wearing it out while active.</description>
     <descriptionHyperlinks>
 
     </descriptionHyperlinks>
@@ -49,7 +49,7 @@
   <HediffDef>
     <defName>FF_OverclockHigh</defName>
     <label>overclock</label>
-    <description>Active overclock mechanites in the body. They put the body's metabolism into overdrive, burning energy to increase capabilities.</description>
+    <description>Active overclock in the bloodstream. It boosts the body's metabolism into overdrive, burning energy to increase movespeed and productivity.</description>
     <hediffClass>Hediff_High</hediffClass>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
