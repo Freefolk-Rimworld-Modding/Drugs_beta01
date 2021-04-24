@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ModMetaData>
-    <name>FF Drugs Test</name>
-    <author>KEP</author>
+    <name>Drugs</name>
+    <author>Freefolk</author>
     <supportedVersions>
         <li>1.2</li>
     </supportedVersions>
+    <packageId>freefolk.Drugs</packageId>
     <description>
-      placeholder
+This mod adds several drugs mainly focused on industrial tech and higher. Includes various utilities for your colonists' needs; such as antidepressants, dermal scar regeneration, cathartic reliefs and much more!
     </description>
+    <modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+	<li>brrainz.harmony</li>
+	<li>Ludeon.RimWorld</li>
+	<li>Ludeon.RimWorld.Royalty</li>
+	</loadAfter>
 </ModMetaData>
