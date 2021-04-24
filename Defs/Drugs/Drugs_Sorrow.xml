@@ -4,7 +4,7 @@
   <ThingDef ParentName="MakeableDrugPillBase">
     <defName>FF_Sorrow</defName>
     <label>sorrow</label>
-    <description>A depressant drug that puts the user into a sad mental state. Users would like to spend time alone for a while.\n\nRecommended for those who suffered great losses to prevent more serious mental breaks.</description>
+    <description>An advanced depressant that causes a controlled surge of sadness, often allowing cathartic introspection.\n\nRecommended for those who suffered great losses to prevent more serious mental breaks.</description>
     <descriptionHyperlinks>
 
     </descriptionHyperlinks>
@@ -49,7 +49,8 @@
   <HediffDef>
     <defName>FF_SorrowHigh</defName>
     <label>high on sorrow</label>
-    <description>The user would probably like to spend some time alone.</description>
+    <labelNoun>a sorrow high</labelNoun>
+    <description>Sorrow in the bloodstream. It produces a controlled upwelling of sadness with cathartic effects.</description>
     <hediffClass>Hediff_High</hediffClass>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>

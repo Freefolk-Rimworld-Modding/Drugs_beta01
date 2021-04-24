@@ -4,7 +4,7 @@
   <ThingDef ParentName="MakeableDrugPillBase">
     <defName>FF_Painkiller</defName>
     <label>painkiller</label>
-    <description>Painkillers of various types. Used to relieve pain in both acute and chronic conditions. Overuse may cause addiction and serious side effects.</description>
+    <description>An analgesic that dulls sensation, providing relief from physical pain. Overuse may cause addiction and serious side effects.</description>
     <graphicData>
       <texPath>Things/Item/Drug/Painkiller</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -56,8 +56,8 @@
 
   <HediffDef>
     <defName>FF_PainkillerHigh</defName>
-    <label>painkiller</label>
-    <description>Painkiller in the bloodstream relieve the user's pain.</description>
+    <label>painkiller high</label>
+    <description>Painkiller in the bloodstream. It dulls sensation and relieves pain.</description>
     <hediffClass>Hediff_High</hediffClass>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>

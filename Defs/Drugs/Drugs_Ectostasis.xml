@@ -46,7 +46,7 @@
   <HediffDef>
     <defName>FF_EctostasisHigh</defName>
     <label>ectostasis</label>
-    <description>Mechanites from the drug ectostasis are setting the metabolism to baseline levels.</description>
+    <description>Active ectostasis mechanites in the body. They maintain the body's metabolism at baseline levels.</description>
     <hediffClass>Hediff_High</hediffClass>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>

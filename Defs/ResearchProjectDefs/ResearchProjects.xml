@@ -52,7 +52,7 @@
     <defName>FF_OverclockProduction</defName>
     <label>overclock production</label>
     <techLevel>Spacer</techLevel>
-    <description>Produce overclock, a self-injected drug cocktail which boosts the metabolism into overdrive, augmenting movement and productivity while wearing down the user's energy reserves.</description>
+    <description>Produce overclock, a self-injected drug cocktail which boosts the metabolism into overdrive, augmenting movement and productivity while wearing down the body's energy reserves.</description>
     <baseCost>2000</baseCost>
     <prerequisites>
       <li>MedicineProduction</li>
@@ -110,7 +110,7 @@
     <defName>FF_NeodermProduction</defName>
     <label>neoderm production</label>
     <techLevel>Spacer</techLevel>
-    <description>Produce neoderm, a regenerative ointment which heals dermal scars over time.</description>
+    <description>Produce neoderm, a regenerative ointment which painfully heals dermal scars over time.</description>
     <baseCost>2500</baseCost>
     <prerequisites>
       <li>MedicineProduction</li>

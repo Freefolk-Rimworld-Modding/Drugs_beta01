@@ -4,7 +4,7 @@
   <ThingDef ParentName="MakeableDrugPillBase">
     <defName>FF_Fibrodust</defName>
     <label>fibrodust</label>
-    <description>Military coagulant that stops bleeding on the spot. Its effect only lasts long enough to carry the user to safety. Usage may induce serious cardiovascular issues.</description>
+    <description>A coagulant powder that stops bleeding on the spot, developed by midworld militaries. The clotting effect fades rapidly, serving only to buy time for proper treatment. Usage may induce serious cardiovascular issues.</description>
     <descriptionHyperlinks>
 
     </descriptionHyperlinks>
@@ -48,8 +48,8 @@
 
   <HediffDef>
     <defName>FF_FibrodustHigh</defName>
-    <label>fibrodust</label>
-    <description>Bleeding is temporarily stopped due to fibrodust usage.</description>
+    <label>fibrodust clotting</label>
+    <description>Fibrodust in the bloodstream. Active bleeding is temporarily halted by its strong coagulant effects.</description>
     <hediffClass>Hediff_High</hediffClass>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
