@@ -37,7 +37,7 @@
     </recipeMaker>
     <costList>
       <Neutroamine>3</Neutroamine>
-      <FF_RawPoisonIvy>20</FF_RawPoisonIvy>
+      <FF_PoisonIvyLeaves>20</FF_PoisonIvyLeaves>
     </costList>
     <comps>
       <li Class="CompProperties_Drug">
