@@ -4,7 +4,7 @@
   <ThingDef ParentName="PlantBase">
     <defName>FF_Plant_PoisonIvy</defName>
     <label>poison ivy plant</label>
-    <description>A bushy, vining plant with distinctive leaves. Since contact with the plant can cause irritating, itchy rashes, it is widely regarded as a nuisance. However, its extract has valuable uses in medicine.</description>
+    <description>A bushy, vining plant with distinctive leaves. Since poison ivy can cause irritating, itchy rashes on contact, it is widely regarded as a nuisance. However, its extract has valuable uses in medicine.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Nutrition>0.15</Nutrition>
@@ -24,7 +24,7 @@
       <harvestYield>7</harvestYield>
       <sowMinSkill>8</sowMinSkill>
       <sowTags>
-	    <li>Ground</li>
+	      <li>Ground</li>
         <li>Hydroponic</li>
       </sowTags>
       <topWindExposure>0.1</topWindExposure>
