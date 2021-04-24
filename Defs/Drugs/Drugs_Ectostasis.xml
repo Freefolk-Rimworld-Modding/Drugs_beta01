@@ -10,6 +10,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <rotatable>false</rotatable>
+	<stackLimit Inherit="False">25</stackLimit>
     <statBases>
       <WorkToMake>9000</WorkToMake>
       <MarketValue>238</MarketValue>

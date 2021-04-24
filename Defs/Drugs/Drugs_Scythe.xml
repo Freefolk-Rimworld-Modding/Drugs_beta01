@@ -5,9 +5,6 @@
     <defName>FF_Scythe</defName>
     <label>scythe</label>
     <description>A powerful immunostimulant developed to fight a pre-spacer era pandemic. Scythe utilizes a chemotherapeutic mechanism to massively overstimulate the immune system. However, it is used only as a last resort - the resulting frenzy of immune activity stresses the body into a two-day coma.</description>
-    <descriptionHyperlinks>that massively boosts immunity, used as a medical last-resort. D
-
-    </descriptionHyperlinks>
     <graphicData>
       <texPath>Things/Item/Drug/Scythe</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
