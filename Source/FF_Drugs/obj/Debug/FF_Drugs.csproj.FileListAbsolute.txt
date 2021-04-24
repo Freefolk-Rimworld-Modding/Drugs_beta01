@@ -1,0 +1,7 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\FF Drugs\Drugs_beta01\1.2\Assemblies\FF_Drugs.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\FF Drugs\Drugs_beta01\1.2\Assemblies\FF_Drugs.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\FF Drugs\Drugs_beta01\Source\FF_Drugs\obj\Debug\FF_Drugs.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\FF Drugs\Drugs_beta01\Source\FF_Drugs\obj\Debug\FF_Drugs.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\FF Drugs\Drugs_beta01\Source\FF_Drugs\obj\Debug\FF_Drugs.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\FF Drugs\Drugs_beta01\Source\FF_Drugs\obj\Debug\FF_Drugs.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\FF Drugs\Drugs_beta01\Source\FF_Drugs\obj\Debug\FF_Drugs.pdb

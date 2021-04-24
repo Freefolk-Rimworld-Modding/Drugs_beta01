@@ -8,22 +8,22 @@ using Verse;
 
 namespace FF_Drugs
 {
-	public class KEPHediffCompProperties_SelectiveRegeneration : HediffCompProperties
+	public class HediffCompProperties_SelectiveRegeneration : HediffCompProperties
 	{
 		public List<BodyPartDef> exclusionList = new List<BodyPartDef>();
 		public int minTimeToHeal;
 		public int maxTimeToHeal;
 		public bool excludeChronic;
-		public KEPHediffCompProperties_SelectiveRegeneration()
+		public HediffCompProperties_SelectiveRegeneration()
 		{
-			compClass = typeof(KEPHediffComp_SelectiveRegeneration);
+			compClass = typeof(HediffComp_SelectiveRegeneration);
 		}
 	}
 
-	public class KEPHediffComp_SelectiveRegeneration : HediffComp
+	public class HediffComp_SelectiveRegeneration : HediffComp
 	{
 		private int ticksToHeal;
-		public KEPHediffCompProperties_SelectiveRegeneration Props => (KEPHediffCompProperties_SelectiveRegeneration)props;
+		public HediffCompProperties_SelectiveRegeneration Props => (HediffCompProperties_SelectiveRegeneration)props;
 		public override void CompPostMake()
 		{
 			base.CompPostMake();
