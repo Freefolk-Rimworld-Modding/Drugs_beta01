@@ -13,8 +13,8 @@
                     <!-- Poison Ivy Seed Extraction -->
                         <RecipeDef ParentName="ExtractSeed">
                             <defName>ExtractSeed_FFPoisonIvy</defName>
-                            <label>Extract seeds from poison ivy leaves</label>
-                            <description>Extract seeds from poison ivy leaves.</description>
+                            <label>Extract poison ivy seeds</label>
+                            <description>Extract poison ivy seeds.</description>
                             <ingredients>
                                 <li>
                                     <filter>
