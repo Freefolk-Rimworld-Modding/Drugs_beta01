@@ -15,9 +15,6 @@ namespace FF_Drugs
 		{
 			return RandomSocialMode.Off;
 		}
-		public override void MentalStateTick()
-		{
-		}
 		public override void PreStart()
 		{
 			base.PreStart();
