@@ -3,7 +3,7 @@
 
   <MentalStateDef ParentName="BaseMentalState">
     <defName>FF_WanderSorrow</defName>
-    <stateClass>MentalState_WanderSad</stateClass>
+    <stateClass>FF_Drugs.Freefolk_WanderSad</stateClass>
     <label>sad wandering</label>
     <category>Misc</category>
     <colonistsOnly>true</colonistsOnly>
