@@ -21,9 +21,7 @@ namespace FF_Drugs
 		public override void PreStart()
 		{
 			base.PreStart();
-			Log.Error("Is it caused by a mood? " + causedByMood);
 			causedByMood = true;
-			Log.Error("Is it caused by a mood now? " + causedByMood);
 		}
 	}
 }
