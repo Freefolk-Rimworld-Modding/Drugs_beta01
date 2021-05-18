@@ -66,8 +66,12 @@
       <li>
         <mentalStateGivers>
           <li>
-            <mentalState>FF_WanderSorrow</mentalState>
-            <mtbDays>0.05</mtbDays>
+            <mentalState>Wander_Sad</mentalState>
+            <mtbDays>0.1</mtbDays>
+          </li>
+          <li>
+            <mentalState>Wander_OwnRoom</mentalState>
+            <mtbDays>0.1</mtbDays>
           </li>
         </mentalStateGivers>
       </li>
