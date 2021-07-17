@@ -22,7 +22,7 @@
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>FF_AntidepressantHigh</hediffDef>
-          <severity>1.0</severity>
+          <severity>1</severity>
         </li>
       </outcomeDoers>
     </ingestible>
@@ -53,12 +53,18 @@
     <isBad>false</isBad>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-1</severityPerDay>
+        <severityPerDay>-1.6</severityPerDay>
         <showHoursToRecover>true</showHoursToRecover>
       </li>
     </comps>
     <stages>
       <li>
+      </li>
+      <li>
+		<minSeverity>0.2</minSeverity>
+      </li>
+      <li>
+		<minSeverity>0.6</minSeverity>
       </li>
     </stages>
   </HediffDef>
@@ -70,9 +76,19 @@
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
+        <label>antidepressant withdrawal</label>
+        <description>What was I thinking!</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+      <li>
         <label>antidepressant use</label>
         <description>Life is good enough to give it a try, I think?</description>
-        <baseMoodEffect>12</baseMoodEffect>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+      <li>
+        <label>antidepressant use</label>
+        <description>We don't make mistakes; we just have happy crashlandings.</description>
+        <baseMoodEffect>9</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>

@@ -71,14 +71,14 @@
           <li>Stomach</li>
 		  <li>Spine</li>
         </exclusionList>
-        <minTimeToHeal>8</minTimeToHeal>
-        <maxTimeToHeal>15</maxTimeToHeal>
+        <minTimeToHeal>5</minTimeToHeal>
+        <maxTimeToHeal>7</maxTimeToHeal>
         <excludeChronic>true</excludeChronic>
       </li>
     </comps>
     <stages>
       <li>
-        <painOffset>0.1</painOffset>
+        <painOffset>0.05</painOffset>
       </li>
     </stages>
   </HediffDef>
