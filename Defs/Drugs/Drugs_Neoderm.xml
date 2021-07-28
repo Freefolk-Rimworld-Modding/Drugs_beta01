@@ -4,7 +4,9 @@
   <ThingDef ParentName="MakeableDrugPillBase">
     <defName>FF_Neoderm</defName>
     <label>neoderm</label>
-    <description>An advanced regenerative ointment. Neoderm heals dermal scars over time through a mildly painful process. Has no effect on internal organs or eyes.</description>
+    <description>An advanced regenerative ointment. Neoderm heals dermal scars over time through a mildly painful process. Has no effect on internal organs or eyes.
+
+Takes 5-7 days to heal one scar.</description>
     <descriptionHyperlinks>
 
     </descriptionHyperlinks>
