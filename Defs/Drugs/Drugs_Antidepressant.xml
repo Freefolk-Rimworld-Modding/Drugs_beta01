@@ -31,6 +31,10 @@
       <recipeUsers>
         <li>DrugLab</li>
       </recipeUsers>
+	  <skillRequirements>
+	    <Crafting>4</Crafting>
+		<Intellectual>4</Intellectual>
+	  </skillRequirements>
     </recipeMaker>
     <costList>
       <Neutroamine>1</Neutroamine>

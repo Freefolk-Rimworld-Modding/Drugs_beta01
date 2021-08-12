@@ -34,6 +34,10 @@
       <recipeUsers>
         <li>DrugLab</li>
       </recipeUsers>
+	  <skillRequirements>
+	    <Crafting>6</Crafting>
+		<Intellectual>6</Intellectual>
+	  </skillRequirements>
     </recipeMaker>
     <costList>
       <InsectJelly>20</InsectJelly>

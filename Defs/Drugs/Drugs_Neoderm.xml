@@ -36,6 +36,10 @@ Takes 5-7 days to heal one scar. Must be taken everyday.</description>
       <recipeUsers>
         <li>DrugLab</li>
       </recipeUsers>
+	  <skillRequirements>
+	    <Crafting>6</Crafting>
+		<Intellectual>6</Intellectual>
+	  </skillRequirements>
     </recipeMaker>
     <costList>
       <Neutroamine>2</Neutroamine>
