@@ -53,7 +53,7 @@ namespace FF_Drugs
 				foreach (BodyPartDef bodyPart in Props.exclusionList)
 					if (result.Part.def == bodyPart)
 						return;
-				HealthUtility.Cure(result);
+				HealthUtility.CureHediff(result);
 				if (PawnUtility.ShouldSendNotificationAbout(base.Pawn))
 				{
 					Messages.Message("MessagePermanentWoundHealed".Translate(parent.LabelCap, base.Pawn.LabelShort, result.Label, base.Pawn.Named("PAWN")), base.Pawn, MessageTypeDefOf.PositiveEvent);
