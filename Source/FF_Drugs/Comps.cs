@@ -48,7 +48,7 @@ namespace FF_Drugs
 		}
 		public void TryHealRandomDermalWound()
 		{
-			if (base.Pawn.health.hediffSet.hediffs.Where((Hediff hd) => !hd.IsPermanent()|| !hd.def.chronic).TryRandomElement(out Hediff result))
+			if (base.Pawn.health.hediffSet.hediffs.TryRandomElement(out Hediff result))
 			{
 				if (Props.excludeChronic && result.def.chronic)
 					return;
