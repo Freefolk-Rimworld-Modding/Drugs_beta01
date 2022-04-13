@@ -13,7 +13,10 @@ namespace FF_Drugs
 		public List<BodyPartDef> exclusionList = new List<BodyPartDef>();
 		public int minTimeToHeal;
 		public int maxTimeToHeal;
-		public bool excludeChronic;
+		public bool excludeChronic = false;
+		public bool excludeNonChronic = false;
+		public bool excludePermanent = false;
+		public bool excludeNonPermanent = false;
 		public HediffCompProperties_SelectiveRegeneration()
 		{
 			compClass = typeof(HediffComp_SelectiveRegeneration);
@@ -45,11 +48,16 @@ namespace FF_Drugs
 		}
 		public void TryHealRandomDermalWound()
 		{
-			if (base.Pawn.health.hediffSet.hediffs.Where((Hediff hd) => hd.IsPermanent()|| hd.def.chronic).TryRandomElement(out Hediff result))
+			if (base.Pawn.health.hediffSet.hediffs.Where((Hediff hd) => !hd.IsPermanent()|| !hd.def.chronic).TryRandomElement(out Hediff result))
 			{
-				if (Props.excludeChronic == true)
-					if (result.def.chronic)
-						return;
+				if (Props.excludeChronic && result.def.chronic)
+					return;
+				if (Props.excludeNonChronic && result.def.chronic)
+					return;
+				if (Props.excludePermanent && result.IsPermanent())
+					return;
+				if (Props.excludeNonPermanent && !result.IsPermanent())
+					return;
 				foreach (BodyPartDef bodyPart in Props.exclusionList)
 					if (result.Part.def == bodyPart)
 						return;
@@ -60,5 +68,10 @@ namespace FF_Drugs
 				}
 			}
 		}
-    }
+
+		public override void CompExposeData()
+		{
+			Scribe_Values.Look(ref ticksToHeal, "ticksToHeal", 0);
+		}
+	}
 }

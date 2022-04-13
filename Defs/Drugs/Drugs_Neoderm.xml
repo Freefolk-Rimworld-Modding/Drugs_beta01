@@ -80,6 +80,7 @@ Takes 5-7 days to heal one scar. Must be taken everyday.</description>
         <minTimeToHeal>5</minTimeToHeal>
         <maxTimeToHeal>7</maxTimeToHeal>
         <excludeChronic>true</excludeChronic>
+        <excludeNonPermanent>true</excludeNonPermanent>
       </li>
     </comps>
     <stages>
