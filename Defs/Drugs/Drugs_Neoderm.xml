@@ -75,10 +75,10 @@ Takes 5-7 days to heal one scar. Must be taken everyday.</description>
           <li>Lung</li>
           <li>Kidney</li>
           <li>Stomach</li>
-		  <li>Spine</li>
+          <li>Spine</li>
         </exclusionList>
-        <minTimeToHeal>5</minTimeToHeal>
-        <maxTimeToHeal>7</maxTimeToHeal>
+        <minTimeToHeal>300000</minTimeToHeal>
+        <maxTimeToHeal>420000</maxTimeToHeal>
         <excludeChronic>true</excludeChronic>
         <excludeNonPermanent>true</excludeNonPermanent>
       </li>
