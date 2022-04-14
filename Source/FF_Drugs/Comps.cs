@@ -34,7 +34,7 @@ namespace FF_Drugs
 		}
 		private void ResetTicksToHeal()
 		{
-			ticksToHeal = Rand.Range(Props.minTimeToHeal, Props.maxTimeToHeal) * 60000;
+			ticksToHeal = Rand.Range(Props.minTimeToHeal, Props.maxTimeToHeal);
 		}
 
 		public override void CompPostTick(ref float severityAdjustment)
@@ -52,7 +52,7 @@ namespace FF_Drugs
 			{
 				if (Props.excludeChronic && result.def.chronic)
 					return;
-				if (Props.excludeNonChronic && result.def.chronic)
+				if (Props.excludeNonChronic && !result.def.chronic)
 					return;
 				if (Props.excludePermanent && result.IsPermanent())
 					return;
